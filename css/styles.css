@@ -8,6 +8,9 @@ GENERAL
 
  body {
    max-width: 1600px;
+   font-family: 'Lato', sans-serif;
+   color:  #4d4959;
+
  }
 
 
@@ -18,18 +21,41 @@ HEADER
 
  .header {
    width: 100%;
-   height: 800px;
+   min-height: 800px;
    background-image: url(../images/header_bg.jpg);
-   background-size: 100%;
+   background-size: cover;
+   background-position: center;
    background-repeat: no-repeat;
    text-align: center;
+   border: 2px solid green;
 
+ }
+
+ .menu {
+    border: 2px solid yellow;
  }
 
 
  .menu__list {
-   padding: 0;
+   padding: 35px 0 0 0;
    margin: 0;
    list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
 
+  .menu__item {
+   display: inline-block;
+   text-transform: uppercase;
+   font-size: 13px;
+   font-weight: 700;
+  margin-right: 63px;
+   vertical-align: center;
+ }
+
+ .logo img {
+
+   width: 94px;
+   height: 85px;
  }
